@@ -1,1 +1,78 @@
-//BU YERDA SAYTIMIZNING HEADER QISMIGA ISHLOV BERILADI
+.header {
+    padding-top:44px;
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        white-space: nowrap;
+    }
+    &__logo-link {
+        flex-shrink: 0;
+    }
+    &__logo-link {
+        text-decoration: none;
+    }
+    &__hamburger {
+        display: none;
+        margin: 0;
+        padding: 0;
+        border: none;
+        background-color:transparent;
+        background-image: url("../images/bars-solid.svg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 20px;
+        height: 20px;
+        transition: 0.2s;
+    }
+}
+
+
+@media only screen and (max-width:590px) {
+ .header {
+     position: relative;
+     padding-bottom: 10px;
+    &__hamburger {
+    flex-shrink: 0;
+    display: inline-block;
+ }
+}
+
+.header--open .navbar {
+    display: block;
+    position: absolute;
+    top:100%; ///bunda otasi qayerga kelib tugasa o'wa joydan bowlanasi navbar
+    width: 100%;
+    background-color: blueviolet;
+    left: 0;
+}
+
+.header--open .navbar__list {
+    flex-direction: column;
+    align-items: center;
+}
+
+.header--open .navbar__item + .navbar__item {
+    margin: 0;
+}
+
+.header--open .navbar__item-link {
+    color: azure;
+    &:hover {
+        color: red;
+    }
+    &:active {
+        color:black;
+    }
+}
+.header--open .header__hamburger {
+    background-image: url("../../images/xmark-solid.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.1s;
+    width: 20px;
+    height: 20px;
+}
+}

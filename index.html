@@ -5,14 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
-    <title>Scss-bem-starter</title>
+    <title>Coffeeroaster</title>
 </head>
 <body>
     <!--HEAD-->
-    <header></header>
+    <header class="header">
+        <div class="container header__container">
+            <a class="header__logo-link" href="./index.html" target="_blank">
+                <img class="header__logo-img" src="./images/logo.svg" alt="Site logo" width="236" height="26">
+            </a>
+            <nav class="navbar">
+                <ul class="navbar__list">
+                    <li class="navbar__item">
+                        <a class="navbar__item-link" href="#">home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a class="navbar__item-link" href="#">about us</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a class="navbar__item-link" href="#">create your plan</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="header__hamburger">
+            </button>
+        </div>
+    </header>
     <!--MAIN-->
     <main></main>
     <!--FOOTER-->
     <footer></footer>
+    <script src="./js/script.js"></script>
 </body>
 </html>
