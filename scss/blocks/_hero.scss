@@ -1,1 +1,125 @@
-//BU YERDA SYTIMIZNI HERO QISMIGA ISHLOV BERILADI
+.hero {
+    &__left-side {
+        margin: 0;
+        padding: 0;
+        background-image: url("../images/Bitmap.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        padding:90px 85px;
+    }
+    &__heading {
+        margin: 0;
+        padding: 0;
+        font-family: "Fraunces";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FEFCF7;
+        width: 493px;
+        margin-bottom: 32px;
+    }
+    &__paragraph {
+        margin: 0;
+        padding: 0;
+        color: white;
+        width: 440px;
+        font-family: "Barlow";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+}
+
+
+////Tablet
+@media only screen and (max-width:700px) {
+    .hero {
+        &__left-side {
+            background-image: url("../images/Bitmap689.jpg");
+            background-repeat: no-repeat;
+            background-position: cover;
+            padding: 90px 58px;
+        }
+        &__heading {
+            margin: 0;
+            padding: 0;
+            font-family: "Fraunces";
+            font-style: normal;
+            font-weight: 900;
+            font-size: 48px;
+            line-height: 48px;
+            color: #FEFCF7;
+            width: 329px;
+            margin-bottom: 24px;
+        }
+        &__paragraph {
+            margin: 0;
+            padding: 0;
+            color: white;
+            width: 398px;
+            font-family: "Barlow";
+            font-style: normal;
+            font-weight: 100;
+            font-size: 15px;
+            line-height: 25px;
+            color: #FEFCF7;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+        }
+
+    }
+
+}
+
+///Mobile
+@media only screen and (max-width:500px) {
+    .hero {
+        &__left-side {
+            background-image: url("../images/Bitmapmobile.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__heading {
+            margin: 0;
+            padding: 0;
+            font-family: "Fraunces";
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 40px;
+            color: #FEFCF7;
+            width: 279px;
+            height: 81px;
+            text-align: center;
+            margin-bottom: 24px;
+        }
+        &__paragraph {
+            margin: 0;
+            padding: 0;
+            color: white;
+            width: 279px;
+            height: 101px;
+            font-family: "Barlow";
+            font-style: normal;
+            font-weight: 100;
+            font-size: 15px;
+            text-align: center;
+            line-height: 25px;
+            color: #FEFCF7;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+        }
+
+    }
+}

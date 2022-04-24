@@ -1,1 +1,42 @@
-//BU YERDA BIZNING FONTLAR YASHAYDI
+@font-face {
+    font-family: "Fraunces";
+    src: url("../fonts/Fraunces-Black.ttf"),
+         url("../fonts/Fraunces-Black.woff"),
+         url("../fonts/Fraunces-Black.woff2");
+    font-weight: 900;
+}
+@font-face {
+    font-family: "Barlow";
+    src: url("../fonts/Barlow-Thin.ttf"),
+         url("../fonts/Barlow-Thin.woff"),
+         url("../fonts/Barlow-Thin.woff2");
+    font-weight: 100;
+}
+@font-face {
+    font-family: "Barlow";
+    src: url("../fonts/Barlow-Bold.ttf"),
+         url("../fonts/Barlow-Bold.woff"),
+         url("../fonts/Barlow-Bold.woff2");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Barlow";
+    src: url("../fonts/Barlow-Medium.ttf"),
+         url("../fonts/Barlow-Medium.woff"),
+         url("../fonts/Barlow-Medium.woff2");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Barlow";
+    src: url("../fonts/Barlow-Regular.ttf"),
+         url("../fonts/Barlow-Regular.woff"),
+         url("../fonts/Barlow-Regular.woff2");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Barlow";
+    src: url("../fonts/Barlow-SemiBold.ttf"),
+         url("../fonts/Barlow-SemiBold.woff"),
+         url("../fonts/Barlow-SemiBold.woff2");
+    font-weight: 600;
+}

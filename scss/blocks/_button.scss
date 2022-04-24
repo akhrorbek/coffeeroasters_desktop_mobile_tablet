@@ -1,1 +1,57 @@
-//BU YERDA BUTTONLAR YASHAYDI
+.site-btn {
+    width: 217px;
+    border: none;
+    border-radius: 6px;
+    background: #66D2CF;
+    padding:15px 31px;
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    margin-top: 56px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:700px) {
+    .site-btn {
+        width: 217px;
+        border: none;
+        border-radius: 6px;
+        background: #0E8784;
+        padding:15px 31px;
+        font-family: "Fraunces";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #FEFCF7;
+        margin-top: 56px;
+        cursor: pointer;
+    }
+
+}
+@media only screen and (max-width:500px) {
+    .site-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 217px;
+        border: none;
+        border-radius: 6px;
+        background: #0E8784;
+        padding:15px 31px;
+        font-family: "Fraunces";
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #FEFCF7;
+        margin-top: 39px;
+        cursor: pointer;
+    }
+
+}
