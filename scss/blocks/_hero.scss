@@ -48,6 +48,7 @@
             background-image: url("../images/Bitmap689.jpg");
             background-repeat: no-repeat;
             background-position: cover;
+            background-size: cover;
             padding: 90px 58px;
         }
         &__heading {
@@ -82,8 +83,12 @@
 }
 
 ///Mobile
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:628px) {
     .hero {
+        padding-bottom: 120px;
+        &__container {
+            padding: 0 24px;
+        }
         &__left-side {
             background-image: url("../images/Bitmapmobile.jpg");
             background-repeat: no-repeat;

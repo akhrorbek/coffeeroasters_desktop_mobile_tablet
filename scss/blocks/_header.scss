@@ -46,8 +46,11 @@
 
 ///Mobile
 
-@media only screen and (max-width:590px) {
+@media only screen and (max-width:628px) {
     .header {
+        &__container {
+            padding: 0 24px;
+        }
         position: relative;
         padding-top: 32px;
         padding-bottom: 40px;

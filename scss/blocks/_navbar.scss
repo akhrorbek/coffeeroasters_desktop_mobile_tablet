@@ -5,9 +5,11 @@
         padding: 0;
         list-style: none;
     }
-    &__item + &__item {
+
+    &__item+&__item {
         margin-left: 33px;
     }
+
     &__item-link {
         font-style: normal;
         font-weight: 700;
@@ -27,53 +29,60 @@
 
 ///Mobile
 
-@media only screen and (max-width:590px) {
-.navbar {
-    display: none;
-}
-.header--open .navbar {
-    display: block;
-    position: absolute;
-    top: 99%; ///bunda otasi qayerga kelib tugasa o'wa joydan bowlanasi navbar
-    width: 100%;
-    height: 375px;
-    padding: 40px 150px 471px 150px;
-    background: linear-gradient(360deg, rgba(254, 252, 247, 0.504981) 0%, #FEFCF7 55.94%);
-    transform: matrix(1, 0, 0, 1, 0, 0);
-    left: 0;
-}
-
-.header--open .navbar__list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-}
-.header--open .navbar__item-link {
-    font-family: "Fraunces";
-    font-style: normal;
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 32px;
-    text-align: center;
-    text-transform: none;
-    color: #333D4B;
-    &:hover {
-        color: red;
+@media only screen and (max-width:628px) {
+    .navbar {
+        &__container {
+            padding: 0 24px;
+        }
+        display: none;
     }
 
-    &:active {
-        color: black;
+    .header--open .navbar {
+        display: block;
+        position: absolute;
+        top: 99%; ///bunda otasi qayerga kelib tugasa o'wa joydan bowlanasi navbar
+        width: 100%;
+        height: 375px;
+        padding: 40px 150px 471px 150px;
+        background: linear-gradient(360deg, rgba(254, 252, 247, 0.504981) 0%, #FEFCF7 55.94%);
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        left: 0;
     }
-}
-.header--open .navbar__item + .navbar__item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    margin-top: 32px;
-}
+
+    .header--open .navbar__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header--open .navbar__item-link {
+        font-family: "Fraunces";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        text-transform: none;
+        color: #333D4B;
+
+        &:hover {
+            color: red;
+        }
+
+        &:active {
+            color: black;
+        }
+    }
+
+    .header--open .navbar__item+.navbar__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        margin-top: 32px;
+    }
 
 }

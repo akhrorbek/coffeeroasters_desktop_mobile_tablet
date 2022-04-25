@@ -29,8 +29,6 @@
         margin: 0;
         padding: 0;
         font-family: "Fraunces";
-        font-style: normal;
-        font-weight: 900;
         font-size: 24px;
         line-height: 32px;
         color: #333D4B;
@@ -40,8 +38,6 @@
         margin: 0;
         padding: 0;
         font-family: "Barlow";
-        font-style: normal;
-        font-weight: 400;
         font-size: 16px;
         line-height: 26px;
         color: #333D4B;
@@ -53,11 +49,12 @@
 
 @media only screen and (max-width:820px) {
     .collection {
+        padding-bottom: 144px;
         &__container {
             padding: 0 40px;
             background-image: url("../../images/collection-background.png");
             background-repeat: no-repeat;
-            background-position: center top -5px;
+            background-position: center top -4px;
             background-size: 689px 118px;
         }
         &__lists {
@@ -80,6 +77,9 @@
             margin: 0;
             padding: 0;
         }
+        &__item-heading {
+            margin-bottom: 16px;
+        }
         &__item-wrapper {
             padding-bottom: 25px;
             text-align: left;
@@ -87,5 +87,42 @@
             margin-left: 35px;
         }
 
+}
+}
+
+///MOBILE
+
+@media only screen and (max-width:628px) {
+.collection {
+    &__container {
+        padding: 0 24px;
+        background-image: url("../images/mobile-collection.png");
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position: center top;
+    }
+    &__lists {
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    &__items {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 13px;
+        width: 282px;
+    }
+    &__item-img {
+        margin-bottom: 24px;
+    }
+    &__item-wrapper {
+        text-align: center;
+        width: 282px;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 48px;
+    }
 }
 }
