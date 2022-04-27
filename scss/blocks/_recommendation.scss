@@ -5,6 +5,7 @@
         background-image: url("../images/choose-us.png");
         background-repeat: no-repeat;
         background-position: center;
+        background-size: contain;
 
     }
 
@@ -107,7 +108,7 @@
             background-image: url("../../images/tablet-chooseus.png");
             background-repeat: no-repeat;
             background-position: center top;
-            background-size: 688px;
+            background-size: 720px;
         }
         &__heading {
             margin: 0;
@@ -207,7 +208,8 @@
             background-image: url("../../images/tablet-chooseus.png");
             background-repeat: no-repeat;
             background-position: center top;
-            background-size: 327px 902px;
+            background-size: contain;
+            background-size: 527px 902px;
         }
         &__heading {
             margin: 0;
