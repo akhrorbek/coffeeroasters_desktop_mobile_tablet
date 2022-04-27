@@ -1,6 +1,6 @@
 .working {
     &__container {
-        padding: 102px 90px 0 90px;
+        padding: 102px 90px 100px 90px;
     }
     &__title {
         margin: 0;
@@ -93,6 +93,7 @@
 
 @media only screen and (max-width:820px) {
     .working {
+        padding-bottom:144px;
         &__container {
             padding: 0 40px;
         }
@@ -154,7 +155,7 @@
 
 }
 ////mobile
-@media only screen and (max-width:628px) {
+@media only screen and (max-width:647px) {
     .working {
         &__container {
             padding: 0 24px;

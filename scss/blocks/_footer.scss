@@ -1,0 +1,129 @@
+.footer {
+    padding: 47px 70px 47px 70px;
+    background: #2C343E;
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__logo-link {
+        text-decoration: none;
+        &:hover {
+            opacity: 0.8;
+        }
+        &:active {
+            opacity: 0.7;
+        }
+    }
+
+    &__footer-wrapper {
+        display: flex;
+        align-items: center;
+    }
+    &__social-media-link {
+        text-decoration: none;
+    }
+    &__social-media-link + &__social-media-link {
+        margin-left: 24px;
+    }
+    &__social-media-link:hover {
+        opacity: 0.8;
+    }
+    &__social-media-link:active {
+        opacity: 0.7;
+    }
+}
+    .navbar--footer__nav {
+        margin-left: 103px;
+}
+    .navbar__list-footer {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .navbar__item-footer + .navbar__item-footer {
+        margin-left: 32px;
+    }
+    .navbar__item-footer-link {
+    text-decoration: none;
+    font-family: 'Barlow';
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+.navbar__item-footer-link:hover {
+    color: white;
+}
+
+@media only screen and (max-width:935px) {
+    .footer {
+        &__logo-link {
+            margin-bottom: 32px;
+        }
+        &__footer-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        &__container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+
+    .navbar--footer__nav {
+        margin:0;
+        margin-bottom: 65px;
+}
+    .navbar__list-footer {
+        display: flex;
+        flex-direction:row;
+        margin: 0;
+        padding: 0;
+    }
+    .navbar__item-footer + .navbar__item-footer {
+        margin-left: 32px;
+    }
+
+}
+
+@media only screen and (max-width:647px) {
+    .footer {
+        &__container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        &__logo-link {
+            margin-bottom: 45px;
+            width: 217px;
+            text-decoration: none;
+            &:hover {
+                opacity: 0.8;
+            }
+            &:active {
+                opacity: 0.7;
+            }
+        }
+    }
+.navbar--footer__nav {
+    display: block;
+    margin:0;
+    margin-bottom: 48px;
+}
+.navbar__list-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar__item-footer + .navbar__item-footer {
+    margin-left: 0px;
+    margin-top: 24px;
+}
+}
