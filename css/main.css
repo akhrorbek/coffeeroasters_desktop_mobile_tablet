@@ -991,7 +991,6 @@ img {
   background-image: url("../images/choose-us.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
 }
 
 .recommendation__heading {
@@ -1104,7 +1103,7 @@ img {
     background-image: url("../../images/tablet-chooseus.png");
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: 720px;
+    background-size: 700px;
   }
   .recommendation__heading {
     margin: 0;
@@ -1213,8 +1212,7 @@ img {
     background-image: url("../../images/tablet-chooseus.png");
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: contain;
-    background-size: 527px 902px;
+    background-size: 570px 902px;
   }
   .recommendation__heading {
     margin: 0;
