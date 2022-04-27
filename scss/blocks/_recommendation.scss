@@ -1,9 +1,11 @@
 .recommendation {
+    padding-bottom: 103px;  ///desktop padding
     &__container {
         padding-top: 118px;
         background-image: url("../images/choose-us.png");
         background-repeat: no-repeat;
         background-position: center;
+
     }
 
     &__heading {
@@ -99,6 +101,7 @@
 
 @media only screen and (max-width:820px) {
     .recommendation {
+        padding-bottom: 144px;
         &__container {
             padding: 0 40px;
             background-image: url("../../images/tablet-chooseus.png");
@@ -198,6 +201,7 @@
 
 @media only screen and (max-width:628px) {
     .recommendation {
+        padding-bottom: 120px;
         &__container {
             padding: 0 24px;
             background-image: url("../../images/tablet-chooseus.png");
